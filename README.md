@@ -21,45 +21,13 @@ No more manual searching or copying—just select, copy, and run.
 1. Clone this repository:  
    ```bash
    git clone https://github.com/dre86dre/UK-Phone-Number-and-Email-Address-Extractor.git
-   cd ukPhoneNumberAndEmailAddressExtractor
-Install dependencies (requires Python 3):
 
-bash
-Copy code
-pip install -r requirements.txt
+2. Install dependencies (requires Python 3):
+   ```bash
+   pip install -r requirements.txt
+
 Dependencies:
 
 pyperclip (for clipboard access)
 
 re (Python built-in, for regex extraction)
-
-Usage
-Copy the text you want to scan to your clipboard (Ctrl+A → Ctrl+C).
-
-Run the program:
-
-bash
-Copy code
-python extract_contacts.py
-Your clipboard will now contain only the extracted UK mobile numbers (formatted with +44) and email addresses. Paste it anywhere (Ctrl+V).
-
-Example
-Clipboard text before running:
-
-graphql
-Copy code
-Hello, please contact me at 07123 456789 or john.doe@example.com. You can also reach my colleague on 07456 987654 or jane.smith@example.co.uk.
-
-Clipboard content after running:
-diff
-Copy code
-+447123456789
-+447456987654
-john.doe@example.com
-jane.smith@example.co.uk
-
-Contributing
-Feel free to open issues or submit pull requests!
-
-License
-This project is licensed under the MIT License.
