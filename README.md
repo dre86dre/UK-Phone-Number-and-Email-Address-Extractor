@@ -40,3 +40,17 @@ Dependencies:
 
 
 3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
+
+## Example
+
+Clipboard text before running:
+   ```python
+   Hello, please contact me at 07123 456789 or john.doe@example.com. You can also reach my colleague on 07456 987654 or jane.smith@example.co.uk.
+
+
+Clipboard content after running:
+   ```python
+   +447123456789
+   +447456987654
+   john.doe@example.com
+   jane.smith@example.co.uk
