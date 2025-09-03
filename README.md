@@ -46,7 +46,7 @@ Dependencies:
 Clipboard text before running:
    ```python
    Hello, please contact me at 07123 456789 or john.doe@example.com. You can also reach my colleague on 07456 987654 or jane.smith@example.co.uk.
-
+   ```
 
 Clipboard content after running:
    ```python
@@ -54,3 +54,4 @@ Clipboard content after running:
    +447456987654
    john.doe@example.com
    jane.smith@example.co.uk
+   ```
