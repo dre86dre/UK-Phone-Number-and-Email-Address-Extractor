@@ -14,8 +14,6 @@ No more manual searching or copying—just select, copy, and run.
 - Replaces clipboard content with extracted results  
 - Works with a single copy-paste operation: `Ctrl+A`, `Ctrl+C`, then run the program  
 
----
-
 ## Installation
 
 1. Clone this repository:  
@@ -30,8 +28,6 @@ Dependencies:
 - `pyperclip` (for clipboard access)
 - `re` (Python built-in, for regex extraction)
 
----
-
 ## Usage
 
 1. Copy the text you want to scan to your clipboard (Ctrl+A → Ctrl+C).
@@ -42,8 +38,6 @@ Dependencies:
 
 
 3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
-
----
 
 ## Example
 
