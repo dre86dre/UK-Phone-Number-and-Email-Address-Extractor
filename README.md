@@ -27,6 +27,16 @@ No more manual searching or copying—just select, copy, and run.
    pip install -r requirements.txt
 
 Dependencies:
-
 - `pyperclip` (for clipboard access)
 - `re` (Python built-in, for regex extraction)
+
+## Usage
+
+1. Copy the text you want to scan to your clipboard (Ctrl+A → Ctrl+C).
+
+2. Run the program:
+   ```bash
+   python extract_contacts.py
+
+
+3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
