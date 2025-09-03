@@ -42,7 +42,6 @@ Dependencies:
 3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
 
 ## Example
-
 Clipboard text before running:
    ```graphql
    Hello, please contact me at 07123 456789 or john.doe@example.com. You can also reach my colleague on 07456 987654 or jane.smith@example.co.uk.
