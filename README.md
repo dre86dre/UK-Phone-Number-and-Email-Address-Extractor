@@ -36,7 +36,7 @@ Dependencies:
 
 2. Run the program:
    ```bash
-   python extract_contacts.py
+   python ukPhoneNumberAndEmailAddressExtractor.py
 
 
 3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
