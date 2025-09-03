@@ -12,7 +12,7 @@ No more manual searching or copying—just select, copy, and run.
 - Extracts **email addresses** from clipboard text  
 - Formats UK mobile numbers with `+44` automatically  
 - Replaces clipboard content with extracted results  
-- Works with a single copy-paste operation: `Ctrl+A`, `Ctrl+C`, then run the program<br>
+- Works with a single copy-paste operation: `Ctrl+A`, `Ctrl+C`, then run the program<br><br>
 
 ## Installation
 
