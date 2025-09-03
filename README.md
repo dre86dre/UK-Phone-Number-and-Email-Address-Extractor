@@ -52,4 +52,14 @@ Clipboard content after running:
    +447456987654
    john.doe@example.com
    jane.smith@example.co.uk
+   ```
+<br><br>
+
+## Contributing
+
+Feel free to open issues or submit pull requests!<br><br>
+
+## License
+
+This project is licensed under the MIT License.
    
