@@ -13,8 +13,7 @@ No more manual searching or copying—just select, copy, and run.
 - Formats UK mobile numbers with `+44` automatically  
 - Replaces clipboard content with extracted results  
 - Works with a single copy-paste operation: `Ctrl+A`, `Ctrl+C`, then run the program
-\n
-
+<br>
 ## Installation
 
 1. Clone this repository:  
