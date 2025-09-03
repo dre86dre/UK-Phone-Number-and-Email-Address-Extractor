@@ -40,7 +40,9 @@ Dependencies:
 
 
 3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
+
 ---
+
 ## Example
 
 Clipboard text before running:
