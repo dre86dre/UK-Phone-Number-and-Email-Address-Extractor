@@ -53,7 +53,7 @@ Clipboard content after running:
    john.doe@example.com
    jane.smith@example.co.uk
    ```
-<br><br>
+<br>
 
 ## Contributing
 
