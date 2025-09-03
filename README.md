@@ -44,12 +44,12 @@ Dependencies:
 ## Example
 
 Clipboard text before running:
-   ```bash
+   ```graphql
    Hello, please contact me at 07123 456789 or john.doe@example.com. You can also reach my colleague on 07456 987654 or jane.smith@example.co.uk.
    ```
 
 Clipboard content after running:
-   ```bash
+   ```diff
    +447123456789
    +447456987654
    john.doe@example.com
