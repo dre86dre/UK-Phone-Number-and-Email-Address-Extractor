@@ -28,6 +28,5 @@ No more manual searching or copying—just select, copy, and run.
 
 Dependencies:
 
-pyperclip (for clipboard access)
-
-re (Python built-in, for regex extraction)
+- `pyperclip` (for clipboard access)
+- `re` (Python built-in, for regex extraction)
