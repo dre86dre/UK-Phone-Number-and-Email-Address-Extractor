@@ -57,36 +57,7 @@ Copy code
 +447456987654
 john.doe@example.com
 jane.smith@example.co.uk
-Script (extract_contacts.py)
-python
-Copy code
-import re
-import pyperclip
 
-def extract_contacts(text):
-    # Regex for UK mobile numbers (starting 07 with 10–11 digits)
-    phone_pattern = re.compile(r'\b07\d{8,10}\b')
-    # Regex for email addresses
-    email_pattern = re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')
-
-    phones = phone_pattern.findall(text)
-    emails = email_pattern.findall(text)
-
-    # Format UK mobile numbers with +44 (remove leading zero)
-    formatted_phones = [re.sub(r'^0', '+44', num) for num in phones]
-
-    return formatted_phones + emails
-
-def main():
-    text = pyperclip.paste()
-    contacts = extract_contacts(text)
-    result = '\n'.join(contacts)
-    pyperclip.copy(result)
-    print("Extracted contacts copied to clipboard:")
-    print(result)
-
-if __name__ == "__main__":
-    main()
 Contributing
 Feel free to open issues or submit pull requests!
 
