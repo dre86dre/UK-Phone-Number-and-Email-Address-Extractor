@@ -20,8 +20,8 @@ No more manual searching or copying—just select, copy, and run.
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/clipboard-contact-extractor.git
-   cd clipboard-contact-extractor
+   git clone https://github.com/dre86dre/UK-Phone-Number-and-Email-Address-Extractor.git
+   cd ukPhoneNumberAndEmailAddressExtractor
 Install dependencies (requires Python 3):
 
 bash
@@ -49,8 +49,8 @@ Clipboard text before running:
 graphql
 Copy code
 Hello, please contact me at 07123 456789 or john.doe@example.com. You can also reach my colleague on 07456 987654 or jane.smith@example.co.uk.
-Clipboard content after running:
 
+Clipboard content after running:
 diff
 Copy code
 +447123456789
