@@ -26,8 +26,7 @@ No more manual searching or copying—just select, copy, and run.
 
 Dependencies:
 - `pyperclip` (for clipboard access)
-- `re` (Python built-in, for regex extraction)
-
+- `re` (Python built-in, for regex extraction)<br><br>
 
 ## Usage
 
@@ -38,8 +37,7 @@ Dependencies:
    python ukPhoneNumberAndEmailAddressExtractor.py
 
 
-3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).
-
+3. Your clipboard will now contain only the extracted UK mobile numbers (formatted with `+44`) and email addresses. Paste it anywhere (`Ctrl+V`).<br><br>
 
 ## Example
 
